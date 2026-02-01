@@ -1,16 +1,16 @@
 # 🏦 Financial Analyst AI - Enterprise RAG
 
-> Un asistente de IA financiero "Grounded" capaz de analizar reportes 10-K, citar fuentes exactas y evitar alucinaciones mediante filtrado vectorial.
+> Un asistente de IA financiero "CoinBot" capaz de analizar reportes 10-K, citar fuentes exactas y evitar alucinaciones mediante filtrado vectorial.
 
 ## 📋 Descripción
-Este proyecto implementa una arquitectura RAG (Retrieval-Augmented Generation) avanzada diseñada para el sector financiero. A diferencia de los chatbots genéricos, este sistema utiliza:
+Este proyecto implementa una arquitectura RAG (Retrieval-Augmented Generation):
 1.  **Parsing Estructural:** Convierte PDFs complejos a Markdown para preservar tablas financieras.
 2.  **Verificación de Hechos:** Inferencia basada estrictamente en contexto recuperado.
 3.  **Seguridad Matemática:** Post-procesamiento de similitud para descartar información irrelevante antes de llegar al LLM.
 
 ## 🛠️ Stack Tecnológico
 * **Orquestación:** LlamaIndex
-* **LLM:** Llama 3.3-70b (vía Groq LPU para baja latencia)
+* **LLM:** llama-3.3-70b-versatile (vía Groq LPU para baja latencia)
 * **Embeddings:** BAAI/bge-small-en-v1.5 (Ejecución local/CPU)
 * **Vector DB:** ChromaDB (Persistencia local)
 * **Ingesta:** LlamaParse (Visión computacional para documentos)
