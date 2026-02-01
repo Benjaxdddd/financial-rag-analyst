@@ -23,7 +23,7 @@ Este proyecto implementa una arquitectura RAG (Retrieval-Augmented Generation):
     cd financial-rag-analyst
     ```
 
-2.  **Configurar entorno:**
+2.  **Configurar entorno(aqui yo use un nombre personalizado pero tu puedes ponerle lo que quieras mientras veas el gitignore despues):**
     ```bash
     python -m venv venv
     source venv/bin/activate  # En Windows: venv\Scripts\activate
