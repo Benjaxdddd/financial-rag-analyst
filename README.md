@@ -19,7 +19,7 @@ Este proyecto implementa una arquitectura RAG (Retrieval-Augmented Generation):
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/Benjaxdddd/financial-rag-analyst.git](https://github.com/Benjaxdddd/financial-rag-analyst.git)
+    git clone [https://github.com/Benjaxdddd/financial-rag-analyst.git)
     cd financial-rag-analyst
     ```
 
